@@ -3,4 +3,28 @@
   <groupId>com.br</groupId>
   <artifactId>exemplos</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  	<properties>
+ 		<junit.version>5.6.2</junit.version>
+ 		<hamcrest.version>2.2</hamcrest.version>
+	</properties>
+	 
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+		<dependency>
+		    <groupId>org.junit.jupiter</groupId>
+		    <artifactId>junit-jupiter</artifactId>
+		    <version>${junit.version}</version>
+		    <scope>test</scope>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+		<dependency>
+		    <groupId>org.hamcrest</groupId>
+		    <artifactId>hamcrest</artifactId>
+		    <version>${hamcrest.version}</version>
+		    <scope>test</scope>
+		</dependency>
+	</dependencies>
+  
 </project>
